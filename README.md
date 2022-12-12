@@ -2,6 +2,15 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
+## Try running:
+
+```sh
+npm install
+npm build
+
+python -m http.server --directory build/
+```
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
