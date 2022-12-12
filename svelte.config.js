@@ -10,8 +10,12 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter()
-	}
+		adapter: adapter(),
+		paths: {
+			base: "/try-sveltekit"
+		}
+	},
+
 };
 
 export default config;
